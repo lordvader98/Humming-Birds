@@ -1,0 +1,124 @@
+body,h1,h2,h3,p{
+  margin:0;
+}
+body{
+  font-size:14px;
+}
+@font-face{
+  font-family:Inter;
+  src:url(../../cdn/Inter-Regular.ttf) format("truetype");
+}
+@font-face{
+  font-weight:bold;
+  font-family:Inter;
+  src:url(../../cdn/Inter-Medium.ttf) format("truetype");
+}
+*{
+  font-family:"Inter", sans-serif;
+  box-sizing:border-box;
+}
+a{
+  color:#1976D2;
+}
+input,select,textarea,button{
+  font-size:1em;
+  outline:none;
+}
+input,select,textarea{
+  border:1px solid #DDD;
+}
+textarea{
+  resize:none;
+}
+input:focus,select:focus,textarea:focus{
+  border-color:#1565C0;
+}
+button{
+  border:none;
+}
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+p:not(:first-of-type){
+  margin-top:0.5em;
+}
+
+.branding-image{
+  display:block;
+}
+.main-content{
+  padding:10px;
+}
+.y-table{
+  border-spacing:10px;
+}
+.y-table th,.x-table td{
+  vertical-align:baseline;
+}
+.y-table th{
+  color:#555;
+  text-align:left;
+}
+.x-table{
+  width:100%;
+  border-collapse:collapse;
+}
+.x-table th,.x-table td{
+  padding:5px 10px;
+  border:0.5px solid #DDD;
+}
+.primary-button{
+  color:white;
+  background:#1976D2;
+}
+.neutral-button{
+  color:#333;
+  font-weight:bold;
+  background:#EEE;
+}
+.footer-bottom{
+  padding:5px 10px;
+  font-size:0.8em;
+  border-top:1px solid #DDD;
+}
+.footer-ul{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+.footer-ul>li{
+  margin:3px 5px;
+}
+
+/*Desktop screen view*/
+@media only screen and (min-width:601px){
+  a:not(:hover){
+    text-decoration:none;
+  }
+  input[type=checkbox],input[type=radio],input[type=file],select,button{
+    cursor:pointer;
+  }
+
+  .primary-button:hover{
+    background:#1565C0;
+  }
+  .neutral-button:hover{
+    background:#DDD;
+  }
+}
+
+/*Mobile screen view*/
+@media only screen and (max-width:600px){
+  a:not(:active){
+    text-decoration:none;
+  }
+
+  .primary-button:active{
+    background:#1565C0;
+  }
+  .neutral-button:active{
+    background:#DDD;
+  }
+}

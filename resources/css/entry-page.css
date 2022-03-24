@@ -1,0 +1,28 @@
+.main-content{
+  margin-bottom:100px;
+}
+.branding-image{
+  margin:25px auto;
+  width:175px;
+}
+.input-form{
+  margin:auto;
+  max-width:400px;
+}
+.form-ul>li:not(:first-child){
+  margin-top:20px;
+}
+.form-input{
+  padding:10px 12px;
+  width:100%;
+  border-radius:3px;
+}
+
+/*Desktop screen view*/
+@media only screen and (min-width:601px){
+  .input-form{
+    padding:25px;
+    border:1px solid #DDD;
+    border-radius:5px;
+  }
+}

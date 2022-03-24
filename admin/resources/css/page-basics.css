@@ -1,0 +1,31 @@
+.page-layout{
+  display:flex;
+}
+.aside-left{
+  position:sticky;
+  top:0;
+  width:250px;
+  height:100vh;
+  background:#0D47A1;
+  flex-shrink:0;
+}
+.branding-image{
+  margin:25px auto;
+  width:150px;
+}
+.aside-ul a{
+  display:block;
+  padding:10px;
+  color:white;
+  text-decoration:none;
+}
+.aside-ul a:hover{
+  background:#1565C0;
+}
+.main-content{
+  flex-grow:1;
+}
+.page-header{
+  padding-bottom:5px;
+  border-bottom:1px solid #DDD;
+}
