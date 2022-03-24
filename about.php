@@ -7,57 +7,7 @@
     <link rel="shortcut icon" href="assets/branding/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="resources/css/style.css">
     <style media="screen">
-      .branding-image{
-        margin:50px auto;
-        width:250px;
-      }
-      .about-ul>li{
-        padding:20px;
-      }
-      .about-ul>li{
-        display:flex;
-        align-items:center;
-      }
-      .about-ul>li:nth-child(even){
-        background:#EEE;
-      }
-      .about-image{
-        width:250px;
-      }
-      .about-heading{
-        margin-bottom:10px;
-      }
-
-      @media only screen and (min-width:601px){
-        .about-ul>li:nth-child(even){
-          flex-direction:row-reverse;
-        }
-        .about-ul>li:nth-child(even)>.about-image{
-          margin-left:20px;
-        }
-        .about-ul>li:nth-child(odd)>.about-image{
-          margin-right:20px;
-        }
-      }
-
-      @media only screen and (max-width:600px){
-        .branding-image{
-          width:200px;
-        }
-        .about-ul>li{
-          padding:10px;
-          flex-direction:column;
-        }
-        .about-image{
-          margin-bottom:20px;
-        }
-        .about-heading{
-          text-align:center;
-        }
-        .about-content{
-          text-align:justify;
-        }
-      }
+      .branding-image{margin:50px auto;width:250px}.about-ul>li{padding:20px}.about-ul>li{display:flex;align-items:center}.about-ul>li:nth-child(even){background:#eee}.about-image{width:250px}.about-heading{margin-bottom:10px}@media only screen and (min-width:601px){.about-ul>li:nth-child(even){flex-direction:row-reverse}.about-ul>li:nth-child(even)>.about-image{margin-left:20px}.about-ul>li:nth-child(odd)>.about-image{margin-right:20px}}@media only screen and (max-width:600px){.branding-image{width:200px}.about-ul>li{padding:10px;flex-direction:column}.about-image{margin-bottom:20px}.about-heading{text-align:center}.about-content{text-align:justify}}
     </style>
   </head>
   <body>
