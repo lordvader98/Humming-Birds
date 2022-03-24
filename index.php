@@ -130,10 +130,10 @@
     <header id="page-header">
       <img src="assets/branding/sequelmark-light-logo.svg" alt="Sequelmark" class="branding-image">
       <ul class="header-ul">
-        <li><a href="#">Examinations</a></li>
-        <li><a href="#">Colleges</a></li>
-        <li><a href="#">Login</a></li>
-        <li><a href="#">Signup</a></li>
+        <li><a href="examinations">Examinations</a></li>
+        <li><a href="colleges">Colleges</a></li>
+        <li><a href="login">Login</a></li>
+        <li><a href="signup">Signup</a></li>
       </ul>
     </header>
     <main class="main-content">
@@ -150,14 +150,14 @@
             </div>
           </li>
           <li>
-            <img src="assets/images/1639304332.webp" alt="Sequelmark About Us" draggable="false" class="about-image">
+            <img src="assets/images/1639304301.webp" alt="Sequelmark About Us" draggable="false" class="about-image">
             <div class="about-content">
               <h1 class="about-heading">Plan your Future</h1>
               <p>Get connected with more than 50k Colleges and more than 2k streams.</p>
             </div>
           </li>
           <li>
-            <img src="assets/images/1639304332.webp" alt="Sequelmark About Us" draggable="false" class="about-image">
+            <img src="assets/images/1639304310.webp" alt="Sequelmark About Us" draggable="false" class="about-image">
             <div class="about-content">
               <h1 class="about-heading">We are Expanding across India</h1>
               <p>More than 50k colleges and 100k studnts have joined with us.</p>

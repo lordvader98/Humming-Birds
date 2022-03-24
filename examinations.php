@@ -34,9 +34,6 @@
         overflow-x:auto;
       }
 
-      @media only screen and (min-width:601px){
-      }
-
       @media only screen and (max-width:600px){
         .branding-image{
           width:200px;
@@ -65,9 +62,81 @@
             <td>1</td>
             <td>JEE Mains</td>
             <td>National Testing Agency</td>
-            <td>2021</td>
+            <td>2022</td>
             <td>Physics, Chemistry, Maths</td>
-            <td><a href="#" target="_blank"></a></td>
+            <td><a href="https://jeemain.nta.nic.in" target="_blank">jeemain.nta.nic.in</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>JEE Advance</td>
+            <td>National Testing Agency</td>
+            <td>2022</td>
+            <td>Physics, Chemistry, Maths</td>
+            <td><a href="https://jeeadv.ac.in" target="_blank">jeeadv.ac.in</a></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>WBJEE</td>
+            <td>National Testing Agency</td>
+            <td>2022</td>
+            <td>Physics, Chemistry, Maths</td>
+            <td><a href="https://wbjeeb.nic.in/WBJEEBBoardCMS/Page/Page?PageId=1&LangId=P" target="_blank">wbjeeb.nic.in</a></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>COMEDK UGET</td>
+            <td>COMEDK</td>
+            <td>2022</td>
+            <td>Physics, Chemistry, Maths</td>
+            <td><a href="https://www.comedk.org" target="_blank">comedk.org</a></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>BITSAT</td>
+            <td>BITS Pilani</td>
+            <td>2022</td>
+            <td>Physics, Chemistry, Maths, English</td>
+            <td><a href="https://www.bitsadmission.com" target="_blank">bitsadmission.com</a></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>VITEEE</td>
+            <td>Vellore Institute of Technology</td>
+            <td>2022</td>
+            <td>Physics, Chemistry, Maths</td>
+            <td><a href="https://viteee.vit.ac.in" target="_blank">viteee.vit.ac.in</a></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>IPMAT</td>
+            <td>Indian Institute of Management Indore</td>
+            <td>2022</td>
+            <td>Maths, English</td>
+            <td><a href="https://www.iimidr.ac.in/academic-programmes/five-year-integrated-programme-in-management-ipm" target="_blank">iimidr.ac.in</a></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>SAT</td>
+            <td>College Board</td>
+            <td>2022</td>
+            <td>Physics, Chemistry, Maths</td>
+            <td><a href="https://satsuite.collegeboard.org/sat" target="_blank">satsuite.collegeboard.org/sat</a></td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>MET</td>
+            <td>Manipal Institute of Technology</td>
+            <td>2022</td>
+            <td>Physics, Chemistry, Maths, English</td>
+            <td><a href="https://apply.manipal.edu" target="_blank">apply.manipal.edu</a></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>KIITEE</td>
+            <td>Kalinga Institute of Industrial Technology</td>
+            <td>2022</td>
+            <td>Physics, Chemistry, Maths</td>
+            <td><a href="https://kiitee.kiit.ac.in" target="_blank">kiitee.kiit.ac.in</a></td>
           </tr>
         </table>
       </div>

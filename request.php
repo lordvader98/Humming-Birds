@@ -63,7 +63,7 @@
         </header>
         <main class="main-content">
           <form action="#" method="post" class="request-form">
-            <h3>Send admission request</h3>
+            <h2>Send admission request</h2>
             <ul class="form-ul">
               <li>
                 <label>
@@ -79,6 +79,18 @@
                     <option>BBA (Computer Applications)</option>
                     <option>BA Economics (Hons)</option>
                     <option>BA Sociology (Hons)</option>
+                  </select>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <span>Select stream</span>
+                  <select class="form-input input-field">
+                    <option>--Select--</option>
+                    <option>Computer Science and Engineering</option>
+                    <option>Information Techology</option>
+                    <option>Electronics and Communications Engineering</option>
+                    <option>Electrical Engineering</option>
                   </select>
                 </label>
               </li>
