@@ -8,19 +8,7 @@
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/page-basics.css">
     <style media="screen">
-      .header-image{height:200px;background-position:center;background-repeat:no-repeat;background-size:cover}.logo-image{display:block;margin:-75px auto 15px auto;width:150px;height:150px;box-shadow:0 3px 5px rgba(0,0,0,.2)}.logo-image>img{width:100%;height:100%}.college-header{text-align:center}.sub-head{margin-top:5px}.page-section{margin-top:20px}.college-info{margin:auto;max-width:400px}.section-heading{margin-bottom:10px}.action-button{display:inline-block;padding:6px 12px;border-radius:3px;text-decoration:none}@media only screen and (max-width:600px){.header-image{height:150px}.logo-image{margin-top:-50px;width:100px;height:100px}.college-info{width:100%}#request-button{width:100%}}
-
-      .cutoff{
-        display:flex;
-        justify-content:space-between;
-        align-items:center;
-      }
-      .cutoff>.section-heading{
-        flex-grow:1;
-      }
-      #category,#year{
-        padding:3px 5px;
-      }
+      .header-image{height:200px;background-position:center;background-repeat:no-repeat;background-size:cover}.logo-image{display:block;margin:-75px auto 15px auto;width:150px;height:150px;box-shadow:0 3px 5px rgba(0,0,0,.2)}.logo-image>img{width:100%;height:100%}.college-header{text-align:center}.sub-head{margin-top:5px}.page-section{margin-top:20px}.college-info{margin:auto;max-width:400px}.section-heading{margin-bottom:10px}.action-button{display:inline-block;padding:6px 12px;border-radius:3px;text-decoration:none}@media only screen and (max-width:600px){.header-image{height:150px}.logo-image{margin-top:-50px;width:100px;height:100px}.college-info{width:100%}#request-button{width:100%}}.cutoff{display:flex;justify-content:space-between;align-items:center}.cutoff>.section-heading{flex-grow:1}#category,#year{padding:3px 5px}
     </style>
   </head>
   <body>
