@@ -1,5 +1,5 @@
 <?php
-  if(isset($_POST["signup"])){
+  if(isset($_POST["verify"])){
     header("Location: setup");
   }
 ?>

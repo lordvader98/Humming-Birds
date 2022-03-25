@@ -7,6 +7,9 @@
     <link rel="shortcut icon" href="assets/branding/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/entry-page.css">
+    <style media="screen">
+      label>input{margin-top:5px}
+    </style>
   </head>
   <body>
     <main class="main-content">
@@ -14,18 +17,23 @@
       <form action="#" method="post" class="input-form">
         <ul class="form-ul">
           <li><h1>Profile setup</h1></li>
-          <li><input type="date" class="form-input" placeholder="Date of birth" required></li>
+          <li><input type="text" class="form-input" spellcheck="false" placeholder="Create an ID" autocomplete="off" required autofocus></li>
           <li>
-            <select class="form-input">
-              <option disabled selected>--Select Domicile--</option>
-              <option>West Bengal</option>
-              <option>Delhi</option>
-              <option>Punjab</option>
-            </select>
+            <label>
+              <span>Date of Birth</span>
+              <input type="date" class="form-input" placeholder="Date of birth" required>
+            </label>
+          </li>
+          <li>
+            <label>
+              <span>Birth certificate</span>
+              <input type="file" class="form-input" required>
+            </label>
           </li>
           <li>
             <select class="form-input">
-              <option disabled selected>--Select Category--</option>
+              <option disabled selected>--Select Domicile--</option>
+              <option>All India</option>
               <option>West Bengal</option>
               <option>Delhi</option>
               <option>Punjab</option>
@@ -33,11 +41,25 @@
           </li>
           <li>
             <label>
-              <span>Upload government issued valid documents verifying the above information</span>
-              <input type="file" class="form-input" required multiple style="margin-top:5px">
+              <span>Domicile certificate</span>
+              <input type="file" class="form-input">
             </label>
           </li>
-          <li><input type="text" class="form-input" spellcheck="false" placeholder="Create an ID" autocomplete="off" required autofocus></li>
+          <li>
+            <select class="form-input">
+              <option disabled selected>--Select Category--</option>
+              <option>General</option>
+              <option>OBC</option>
+              <option>SC</option>
+              <option>ST</option>
+            </select>
+          </li>
+          <li>
+            <label>
+              <span>Category certificate</span>
+              <input type="file" class="form-input">
+            </label>
+          </li>
           <li><button type="submit" class="primary-button form-input">Continue</button></li>
         </ul>
       </form>
