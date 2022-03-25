@@ -8,50 +8,7 @@
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/page-basics.css">
     <style media="screen">
-      .input-container{
-        position:relative;
-      }
-      #search-form{
-        display:flex;
-        border:1px solid #DDD;
-        border-radius:3px;
-        overflow:hidden;
-      }
-      #search-form:focus-within{
-        border-color:#1565C0;
-      }
-      #search-input{
-        padding:10px 12px;
-        border:none;
-        flex-grow:1;
-      }
-      .search-button{
-        padding:0 10px;
-        background:white;
-      }
-      h3+.data-ul{
-        margin-top:10px;
-      }
-
-      @media only screen and (min-width:601px){
-        .input-container{
-          max-width:400px;
-        }
-      }
-
-      @media only screen and (max-width:600px){
-        .input-container{
-          width:100%;
-        }
-        #search-input{
-          padding:8px 12px;
-        }
-        #search-autocomplete{
-          position:fixed;
-          left:0;
-          border:none;
-        }
-      }
+      .input-container{position:relative}#search-form{display:flex;border:1px solid #ddd;border-radius:3px;overflow:hidden}#search-form:focus-within{border-color:#1565c0}#search-input{padding:10px 12px;border:none;flex-grow:1}.search-button{padding:0 10px;background:#fff}h3+.data-ul{margin-top:10px}@media only screen and (min-width:601px){.input-container{max-width:400px}}@media only screen and (max-width:600px){.input-container{width:100%}#search-input{padding:8px 12px}#search-autocomplete{position:fixed;left:0;border:none}}
     </style>
   </head>
   <body>
@@ -112,6 +69,9 @@
                 </tr>
               </table>
             </li>
+            <?php
+              if(!isset($_GET["q"])){
+            ?>
             <li>
               <table class="y-table">
                 <tr>
@@ -208,6 +168,7 @@
                 </tr>
               </table>
             </li>
+            <?php }; ?>
           </ul>
         </main>
       </div>
@@ -225,29 +186,6 @@
   <script type="text/javascript" src="cdn/jquery-3.6.0.min.js"></script>
   <script type="text/javascript" src="resources/js/page-basics.js"></script>
   <script type="text/javascript">
-    $(document).ready(function(){
-
-      //search autocomplete
-      $("#search-input").keyup(function(){
-        if($.trim($(this).val())!=""){
-          $.post(
-            "demo/ajax-autocomplete.php",
-            {q:$(this).val()},
-            function(e){
-              $("#search-autocomplete").show().html(e)
-            }
-          )
-        }else{
-          $("#search-autocomplete").hide()
-        }
-      })
-
-      //submit Search
-      $(document).on("click","#search-autocomplete>li",function(){
-        $("#search-input").val($(this).text())
-        $("#search-form").submit()
-      })
-
-    })
+    $(document).ready(function(){$("#search-input").keyup(function(){""!=$.trim($(this).val())?$.post("demo/ajax-autocomplete.php",{q:$(this).val()},function(t){$("#search-autocomplete").show().html(t)}):$("#search-autocomplete").hide()}),$(document).on("click","#search-autocomplete>li",function(){$("#search-input").val($(this).text()),$("#search-form").submit()})});
   </script>
 </html>

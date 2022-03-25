@@ -7,38 +7,7 @@
     <link rel="shortcut icon" href="assets/branding/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="resources/css/style.css">
     <style media="screen">
-      .branding-image{
-        margin:25px auto;
-        width:250px;
-      }
-      .search-form{
-        display:flex;
-        margin:auto;
-        max-width:400px;
-        border:1px solid #DDD;
-      }
-      .search-form:focus-within{
-        border-color:#1565C0;
-      }
-      .search-input{
-        padding:8px 12px;
-        border:none;
-        flex-grow:1;
-      }
-      .search-button{
-        padding:0 10px;
-        background:white;
-      }
-      .table-container{
-        margin-top:50px;
-        overflow-x:auto;
-      }
-
-      @media only screen and (max-width:600px){
-        .branding-image{
-          width:200px;
-        }
-      }
+      .branding-image{margin:25px auto;width:250px}.search-form{display:flex;margin:auto;max-width:400px;border:1px solid #ddd}.search-form:focus-within{border-color:#1565c0}.search-input{padding:8px 12px;border:none;flex-grow:1}.search-button{padding:0 10px;background:#fff}.table-container{margin-top:50px;overflow-x:auto}@media only screen and (max-width:600px){.branding-image{width:200px}}
     </style>
   </head>
   <body>

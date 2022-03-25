@@ -8,40 +8,7 @@
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/page-basics.css">
     <style media="screen">
-      .examination-form{
-        max-width:400px;
-      }
-      .form-ul{
-        margin-top:15px;
-      }
-      .form-ul>li:not(:first-child){
-        margin-top:20px;
-      }
-      .form-input{
-        padding:8px 10px;
-        width:100%;
-      }
-      .input-field{
-        margin-top:5px;
-      }
-
-      @media only screen and (min-width:601px){
-        .settings-icon{
-          display:none;
-        }
-      }
-
-      @media only screen and (max-width:600px){
-        .page-header{
-          display:flex;
-          justify-content:space-between;
-          align-items:center;
-        }
-        .examination-form{
-          margin:20px 0;
-          max-width:100%;
-        }
-      }
+      .examination-form{max-width:400px}.form-ul{margin-top:15px}.form-ul>li:not(:first-child){margin-top:20px}.form-input{padding:8px 10px;width:100%}.input-field{margin-top:5px}@media only screen and (min-width:601px){.settings-icon{display:none}}@media only screen and (max-width:600px){.page-header{display:flex;justify-content:space-between;align-items:center}.examination-form{margin:20px 0;max-width:100%}}
     </style>
   </head>
   <body>

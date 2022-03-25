@@ -8,42 +8,7 @@
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/page-basics.css">
     <style media="screen">
-      .page-header{
-        margin-top:10px;
-        padding:0
-      }
-      .tab-ul{
-        display:flex;
-      }
-      .tab-ul>li{
-        flex-grow:1;
-      }
-      .tab-ul a{
-        display:block;
-        padding:10px;
-        color:#555;
-        font-weight:bold;
-        text-align:center;
-        text-decoration:none;
-      }
-      .tab-ul .active{
-        padding-bottom:8px;
-        color:#1565C0;
-        border-bottom:2px solid #1565C0;
-      }
-      .action-button{
-        display:inline-block;
-        padding:5px 20px;
-        border-radius:3px;
-        text-decoration:none;
-      }
-
-      @media only screen and (min-width:601px){
-        .tab-ul a:not(.active):hover{
-          color:black;
-          background:#EEE;
-        }
-      }
+      .page-header{margin-top:10px;padding:0}.tab-ul{display:flex}.tab-ul>li{flex-grow:1}.tab-ul a{display:block;padding:10px;color:#555;font-weight:700;text-align:center;text-decoration:none}.tab-ul .active{padding-bottom:8px;color:#1565c0;border-bottom:2px solid #1565c0}.action-button{display:inline-block;padding:5px 20px;border-radius:3px;text-decoration:none}@media only screen and (min-width:601px){.tab-ul a:not(.active):hover{color:#000;background:#eee}}
     </style>
   </head>
   <body>

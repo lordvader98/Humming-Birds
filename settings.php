@@ -8,70 +8,7 @@
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/page-basics.css">
     <style media="screen">
-      .settings-ul>li:not(:last-child){
-        padding:20px 10px;
-      }
-      .settings-ul>li:not(:first-child){
-        border-top:1px solid #DDD;
-      }
-      .form-ul{
-        margin-top:20px;
-        max-width:400px;
-      }
-      .form-ul>li:not(:first-child){
-        margin-top:15px;
-      }
-      .form-ul>li:last-child{
-        display:flex;
-      }
-      .input-field{
-        margin-top:5px;
-        padding:6px 12px;
-        width:100%;
-        border-radius:5px;
-      }
-      .form-button{
-        padding:5px;
-        border-radius:3px;
-        flex-grow:1;
-      }
-      .form-button.neutral-button{
-        margin-right:15px;
-      }
-      .sub-ul{
-        margin-top:15px;
-      }
-      .sub-ul>li:not(:first-child){
-        margin-top:10px;
-      }
-      .sub-ul span{
-        margin-left:10px;
-      }
-      .logout{
-        display:block;
-        padding:20px;
-        width:100%;
-        color:black;
-        text-decoration:none;
-      }
-      @media only screen and (min-width:601px){
-        .settings-icon{
-          display:none;
-        }
-        .settings-ul>li:last-child{
-          display:none;
-        }
-      }
-      @media only screen and (max-width:600px){
-        .page-header{
-          display:flex;
-          justify-content:space-between;
-          align-items:center;
-        }
-        .main-content{
-          padding:0;
-        }
-      }
+      .settings-ul>li:not(:last-child){padding:20px 10px}.settings-ul>li:not(:first-child){border-top:1px solid #ddd}.form-ul{margin-top:20px;max-width:400px}.form-ul>li:not(:first-child){margin-top:15px}.form-ul>li:last-child{display:flex}.input-field{margin-top:5px;padding:6px 12px;width:100%;border-radius:5px}.form-button{padding:5px;border-radius:3px;flex-grow:1}.form-button.neutral-button{margin-right:15px}.sub-ul{margin-top:15px}.sub-ul>li:not(:first-child){margin-top:10px}.sub-ul span{margin-left:10px}.logout{display:block;padding:20px;width:100%;color:#000;text-decoration:none}@media only screen and (min-width:601px){.settings-icon{display:none}.settings-ul>li:last-child{display:none}}@media only screen and (max-width:600px){.page-header{display:flex;justify-content:space-between;align-items:center}.main-content{padding:0}}
     </style>
   </head>
   <body>

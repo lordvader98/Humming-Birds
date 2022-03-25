@@ -7,20 +7,7 @@
     <link rel="shortcut icon" href="assets/branding/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="resources/css/style.css">
     <style media="screen">
-      .branding-image{
-        margin:20px auto;
-        width:200px;
-      }
-      .legal-heading{
-        text-align:center;
-      }
-      .legal-ol{
-        margin:20px auto 50px auto;
-        padding-left:2em;
-      }
-      .legal-ol>li:not(:first-child){
-        margin-top:1em;
-      }
+      .branding-image{margin:20px auto;width:200px}.legal-heading{text-align:center}.legal-ol{margin:20px auto 50px auto;padding-left:2em}.legal-ol>li:not(:first-child){margin-top:1em}
     </style>
   </head>
   <body>

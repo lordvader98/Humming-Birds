@@ -1,3 +1,8 @@
+<?php
+  if(isset($_POST["signup"])){
+    header("Location: verification");
+  }
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -20,7 +25,7 @@
           <li><input type="password" class="form-input" placeholder="Create password" required></li>
           <li><input type="password" class="form-input" placeholder="Confirm password" required></li>
           <li><label><input type="checkbox" required>&nbsp;<small>I have read and agree to Sequelmark <a href="#">Privacy Policy</a>, <a href="#">User Agreement</a> and <a href="#">Cookie Policy</a></small></label></li>
-          <li><button type="submit" class="primary-button form-input">Continue</button></li>
+          <li><button type="submit" name="signup" class="primary-button form-input">Continue</button></li>
           <li><a href="login">Login instead</a></li>
         </ul>
       </form>
