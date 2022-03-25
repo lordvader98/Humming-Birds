@@ -3,12 +3,24 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalinga Institute of Industrial Technology (Bhubaneswar) | Sequelmark</title>
+    <title>RCC Institute of Information Technology (Kolkata) | Sequelmark</title>
     <link rel="shortcut icon" href="assets/branding/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/page-basics.css">
     <style media="screen">
       .header-image{height:200px;background-position:center;background-repeat:no-repeat;background-size:cover}.logo-image{display:block;margin:-75px auto 15px auto;width:150px;height:150px;box-shadow:0 3px 5px rgba(0,0,0,.2)}.logo-image>img{width:100%;height:100%}.college-header{text-align:center}.sub-head{margin-top:5px}.page-section{margin-top:20px}.college-info{margin:auto;max-width:400px}.section-heading{margin-bottom:10px}.action-button{display:inline-block;padding:6px 12px;border-radius:3px;text-decoration:none}@media only screen and (max-width:600px){.header-image{height:150px}.logo-image{margin-top:-50px;width:100px;height:100px}.college-info{width:100%}#request-button{width:100%}}
+
+      .cutoff{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+      }
+      .cutoff>.section-heading{
+        flex-grow:1;
+      }
+      #category,#year{
+        padding:3px 5px;
+      }
     </style>
   </head>
   <body>
@@ -113,29 +125,74 @@
             <h3 class="section-heading">Previous Years Cutoff</h3>
             <table class="x-table">
               <tr>
+                <th>
+                  <select id="category">
+                  <option>B.Tech</option>
+                  <option>M.Tech</option>
+                  <option>M.C.A</option>
+                  </select>
+                </th>
                 <th>Course</th>
-                <th>Fees</th>
-                <th>Eligibility</th>
-              </tr>
-              <tr>
-                <td>B.Tech 1st Semester Fees</td>
-                <td>₹ 17.16 Lakhs</td>
-                <td>10+2 with 60% + KIITEE</td>
+                <th>
+                  <select id="category">
+                    <option>Home state - General</option>
+                    <option>Home state - OBC</option>
+                    <option>Home state - SC</option>
+                    <option>Home state - ST</option>
+                    <option selected>All India - General</option>
+                  </select>
+                </th>
+                <th>Opening Rank</th>
+                <th>Closing Rank</th>
+                <th>
+                  <select id="year">
+                    <option>Year</option>
+                    <option>2021</option>
+                    <option>2020</option>
+                    <option>2019</option>
+                    <option>2018</option>
+                  </select>
+                </th>
               </tr>
               <tr>
                 <td>B.Tech</td>
-                <td>₹ 17.16 Lakhs</td>
-                <td>10+2 with 60% + KIITEE</td>
+                <td>Computer Science Engineering</td>
+                <td>HS - General</td>
+                <td>4338</td>
+                <td>11955</td>
+                <td>2021</td>
               </tr>
               <tr>
                 <td>B.Tech</td>
-                <td>₹ 17.16 Lakhs</td>
-                <td>10+2 with 60% + KIITEE</td>
+                <td>Electronics & Communication Engineering</td>
+                <td>HS - General</td>
+                <td>8234</td>
+                <td>29339</td>
+                <td>2021</td>
               </tr>
               <tr>
                 <td>B.Tech</td>
-                <td>₹ 17.16 Lakhs</td>
-                <td>10+2 with 60% + KIITEE</td>
+                <td>Information Technology</td>
+                <td>HS - General</td>
+                <td>9319</td>
+                <td>19941</td>
+                <td>2021</td>
+              </tr>
+              <tr>
+                <td>B.Tech</td>
+                <td>Electrical Engineering</td>
+                <td>HS - General</td>
+                <td>18686</td>
+                <td>55032</td>
+                <td>2021</td>
+              </tr>
+              <tr>
+                <td>B.Tech</td>
+                <td>Applied Electronics and Instrumentation</td>
+                <td>HS - General</td>
+                <td>28424</td>
+                <td>55320</td>
+                <td>2021</td>
               </tr>
             </table>
           </section>
