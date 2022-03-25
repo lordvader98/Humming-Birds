@@ -12,7 +12,7 @@
   </head>
   <body>
     <main class="main-content">
-      <a href="/sequelmark" class="branding-image"><img src="assets/branding/sequelmark-logo.svg" alt="Sequelmark" draggable="false"></a>
+      <a href="/Humming-Birds" class="branding-image"><img src="assets/branding/sequelmark-logo.svg" alt="Sequelmark" draggable="false"></a>
       <ul class="about-ul">
         <li>
           <img src="assets/images/1639304247.webp" alt="Sequelmark About Us" draggable="false" class="about-image">

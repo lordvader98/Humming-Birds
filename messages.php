@@ -11,7 +11,7 @@
   <body>
     <div class="page-layout">
       <aside class="aside-left">
-        <a href="/sequelmark" class="branding-image"><img src="assets/branding/sequelmark-logo.svg" alt="Sequelmark" draggable="false"></a>
+        <a href="/Humming-Birds" class="branding-image"><img src="assets/branding/sequelmark-logo.svg" alt="Sequelmark" draggable="false"></a>
         <ul class="aside-ul">
           <li>
             <input type="text" id="aside-search" spellcheck="false" placeholder="Search...">

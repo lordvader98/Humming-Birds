@@ -11,7 +11,7 @@
     <main class="main-content" style="text-align:center">
       <h2 style="margin:1em 0">Page not found</h2>
       <p>The requested page was not found on our servers</p>
-      <p><a href="/sequelmark">Go to home page</a></p>
+      <p><a href="/Humming-Birds">Go to home page</a></p>
     </main>
   </body>
 </html>
