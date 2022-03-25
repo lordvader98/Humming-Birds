@@ -65,5 +65,4 @@
       </ul>
     </footer>
   </body>
-  <script type="text/javascript" src=""></script>
 </html>

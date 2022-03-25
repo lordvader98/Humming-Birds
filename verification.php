@@ -1,3 +1,8 @@
+<?php
+  if(isset($_POST["signup"])){
+    header("Location: setup");
+  }
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -17,7 +22,7 @@
           <li>OTP is sent to email <b>sa***on@outlook.com</b> and phone number <b>87***41</b></li>
           <li><input type="text" class="form-input" spellcheck="false" placeholder="Email OTP" autocomplete="off" required></li>
           <li><input type="text" class="form-input" spellcheck="false" placeholder="Phone OTP" autocomplete="off" required></li>
-          <li><button type="submit" class="primary-button form-input">Continue</button></li>
+          <li><button type="submit" name="verify" class="primary-button form-input">Continue</button></li>
           <li><a href="#">Resend</a></li>
         </ul>
       </form>
