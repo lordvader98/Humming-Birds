@@ -69,6 +69,9 @@
                 </tr>
               </table>
             </li>
+            <?php
+              if(!isset($_GET["q"])){
+            ?>
             <li>
               <table class="y-table">
                 <tr>
@@ -165,6 +168,7 @@
                 </tr>
               </table>
             </li>
+            <?php }; ?>
           </ul>
         </main>
       </div>
